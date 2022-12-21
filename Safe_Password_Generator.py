@@ -26,6 +26,6 @@ def generate_password(char, length):
     return sample(char, int(length))
 
 
-for _ in range(int(quantity_psw) + 1):
+for _ in range(int(quantity_psw)):
     print(*generate_password(chars, length_psw), sep='')
     
